@@ -8,7 +8,7 @@ Project builded during the Next Level Week event from Rocketseat (11/09/2022 - 1
 ## 🧠 My experience
 Learned about the basics of HTML structure, how to style a HTML and create animations to polish the visual with CSS. Also how to host a page using Github.
 
-[🔗 Click here to acess the page](https://xandyxan.github.io/NLW_eSports/)
+[🔗 Click here to acess the page](https://alexandremonzen.github.io/NLW_eSports/)
 
 ## 👩‍💻 Technologies
 - HTML
