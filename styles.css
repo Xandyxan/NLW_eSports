@@ -13,7 +13,8 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #2b0404, 0%, #450a0a 50%, #270404 100%);
+    /* background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%); */
     border-radius: 50%;
 
     display: flex;
@@ -31,10 +32,6 @@ header img {
     width: 100%;
     /* em relação ao pai dela, que seria o div */
     border-radius: 50%;
-}
-
-main * {
-    /* border: 1px solid red; */
 }
 
 main {
@@ -69,8 +66,6 @@ section ul {
 
     margin-top: 24px;
     flex-wrap: wrap;
-
-
 }
 
 section ul li {
@@ -82,11 +77,11 @@ section ul li:hover {
 }
 
 body {
-    background-image: url(./Assets/bg.jpg);
+    background-image: linear-gradient( rgba(0,0,0,.75), rgba(0,0,0,.75) ), url(./Assets/wallpaper.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-color: #121214;
+    background-color: black;
 }
 
 body * {
@@ -96,13 +91,15 @@ body * {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #330b0b, 0%, #450a0a 50%, #270404 100%);
+    /* background-image: linear-gradient(90deg, #9472fc83 0%, #43e7ae7d 50%, rgba(226, 213, 92, 0.468) 100%); */
     border-radius: 10px;
     padding-top: 4px;
 }
 
 section div {
-    background-color: #2a2634;
+    /* background-color: #2a2634; */
+    background-color: rgba(26, 25, 30, 0.95);
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -120,9 +117,8 @@ section p {
     color: #A1A1AA;
 }
 
-
 .games-list img {
-    width: 90px;
+    width: 115px;
     border-radius: 8px;
 }
 
